@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Test d'une partie:" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-10-09T15:15:16" hostname="ZENBOOK_MATHIEU" time="1.219">
+<testsuite name="Test d'une partie:" tests="5" skipped="0" failures="0" errors="0" timestamp="2024-10-12T14:01:59" hostname="ZENBOOK_MATHIEU" time="1.093">
   <properties/>
-  <testcase name="enregistre la partie quand elle est victorieuse" classname="org.iut.mastermind.domain.partie.TestPartie" time="1.19"/>
-  <testcase name="termine la partie quand le nombre d'essais est dÃ©passÃ©" classname="org.iut.mastermind.domain.partie.TestPartie" time="0.004"/>
+  <testcase name="enregistre la partie quand elle est victorieuse" classname="org.iut.mastermind.domain.partie.TestPartie" time="1.06"/>
+  <testcase name="termine la partie quand le nombre d'essais est dÃ©passÃ©" classname="org.iut.mastermind.domain.partie.TestPartie" time="0.005"/>
   <testcase name="lÃ¨ve une erreur quand la partie est terminÃ©e" classname="org.iut.mastermind.domain.partie.TestPartie" time="0.004"/>
-  <testcase name="met Ã  jour le nombre d'essais" classname="org.iut.mastermind.domain.partie.TestPartie" time="0.007"/>
-  <testcase name="retourne le rÃ©sultat du mot proposÃ©" classname="org.iut.mastermind.domain.partie.TestPartie" time="0.007"/>
+  <testcase name="met Ã  jour le nombre d'essais" classname="org.iut.mastermind.domain.partie.TestPartie" time="0.011"/>
+  <testcase name="retourne le rÃ©sultat du mot proposÃ©" classname="org.iut.mastermind.domain.partie.TestPartie" time="0.008"/>
   <system-out><![CDATA[Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
 Mockito is currently self-attaching to enable the inline-mock-maker. This will no longer work in future releases of the JDK. Please add Mockito as an agent to your build what is described in Mockito's documentation: https://javadoc.io/doc/org.mockito/mockito-core/latest/org/mockito/Mockito.html#0.3
 ]]></system-out>

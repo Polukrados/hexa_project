@@ -1,19 +1,6 @@
 package org.iut.mastermind.domain.partie;
 
-public class Joueur {
-
-    private final String nom;
-
-    // constructeur
-    public Joueur(String nom) {
-        this.nom = nom;
-    }
-
-    // getter nom joueur
-    public String getNom() {
-        return nom;
-    }
-
+public record Joueur(String nom) {
     // equals
     @Override
     public boolean equals(Object o) {
@@ -22,11 +9,4 @@ public class Joueur {
         Joueur joueur = (Joueur) o;
         return nom.equals(joueur.nom);
     }
-
-    // hashcode
-    @Override
-    public int hashCode() {
-        return nom.hashCode();
-    }
-
 }

@@ -37,13 +37,9 @@ public class Reponse {
 
     // renvoie le statut du caractère
     private Lettre evaluationCaractere(char carCourant) {
-        if (estPlace(carCourant)) {
-            return Lettre.PLACEE;
-        } else if (estPresent(carCourant)) {
-            return Lettre.NON_PLACEE;
-        } else {
-            return Lettre.INCORRECTE;
-        }
+        return estPlace(carCourant) ? Lettre.PLACEE :
+                estPresent(carCourant) ? Lettre.NON_PLACEE :
+                        Lettre.INCORRECTE;
     }
 
     // le caractère est présent dans le mot secret
